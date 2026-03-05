@@ -1,0 +1,20 @@
+{
+  "name": "psicologo-site",
+  "version": "1.0.0",
+  "description": "Site da prática de psicologia do Rafael Marrero Brignol",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "http-server src -p 8000 -o",
+    "dev": "http-server src -p 8000 -c-1"
+  },
+  "keywords": [
+    "psicologia",
+    "terapia",
+    "consultório"
+  ],
+  "author": "Rafael Marrero Brignol",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
